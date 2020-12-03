@@ -1,6 +1,6 @@
 # SDC-2020
 
-MATLAB files for the course of Spacecraft Dynamics and Control, Fall 2020, Sharif University of Technology. 
+MATLAB files for the 1st homework assignment - course of Spacecraft Dynamics and Control, Fall 2020, Sharif University of Technology. 
 
 
 ## File(s)
