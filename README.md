@@ -15,7 +15,7 @@ This repository includes the following MATLAB script functions:
 6- Simulation of unperturbed two-body problem (TBP): "tbp_unp.m"\
 7- Simulation of perturbed two-body problem (TBP) under J2 (zonal sphere harmonics): "tbp_per1.m"\
 8- Simulation of perturbed two-body problem (TBP) under J2 (zonal sphere harmonics) using approximated secular motion: "tbp_per2.m"\
-9- Calculation of geodetic latitude and logitude from ECEF position vector: "r2gd.m"\
+9- Calculation of geodetic latitude and logitude from ECEF position vector: "r2gd.m"
 
 ## License(s)
 
