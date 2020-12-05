@@ -12,9 +12,9 @@ This repository includes the following MATLAB script functions:
 3- Obtaining the classical orbital elements from inertial position and velocity vectors: "rv2oe.m"\
 4- Two-body problem (TBP) unactuated state-space model: "dyn.m"\
 5- Solving Kepler problem using Newton-Raphson method: "Kepler.m"\
-6- Simulation of unperturbed two-body problem (TBP): "tbp_unp.m"\
-7- Simulation of perturbed two-body problem (TBP) under J2 (zonal sphere harmonics): "tbp_per1.m"\
-8- Simulation of perturbed two-body problem (TBP) under J2 (zonal sphere harmonics) using approximated secular motion: "tbp_per2.m"\
+6- Simulation of unperturbed TBP: "tbp_unp.m"\
+7- Simulation of perturbed TBP under J2 (zonal sphere harmonics): "tbp_per1.m"\
+8- Simulation of perturbed TBP under J2 (zonal sphere harmonics) using approximated secular motion: "tbp_per2.m"\
 9- Calculation of geodetic latitude and logitude from ECEF position vector: "r2gd.m"
 
 ## License(s)
