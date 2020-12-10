@@ -22,6 +22,12 @@ W=oe(4); %RAAN [rad]
 w=oe(5); %Argument of periapsis [rad]
 theta=oe(6); %True anomaly [rad]
 
+if e<0 || e>=1
+    
+    error('The eccentricity should lie between 0 and 1.')
+    
+end
+
 mu=3.986004418e+5; %Gravitational parameter [km^3/s^2]
 
 gamma=atan2(e*sin(theta),1+e*cos(theta));
