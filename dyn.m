@@ -38,6 +38,10 @@ elseif p==1
     
     dx(4:6)=-mu/norm(r)^3*rj2; %Perturbed acceleration [km/s^2]
     
+else
+    
+    error('Parameter "p" should be 0 (for unperturbed case) or 1 (for perturbed case).')
+    
 end
 
 end
