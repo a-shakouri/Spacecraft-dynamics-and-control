@@ -3,7 +3,7 @@ function [dx] = dyn (x, p)
 %Two-body problem (TBP) unactuated state-space model
 
 %Inputs:
-%          x: State vector [km]
+%          x: State vector [km;km/s]
 %          p: Switching between perturbed and unperturbed models:--assumes p=0 if not specified
 %             p=0: Unperturbed TBP
 %             p=1: Perturbed TBP under J2
@@ -15,7 +15,7 @@ mu=3.986004418e+5; %Standard gravitational parameter [km^3/s^2]
 J2=1.082635854e-3; %J2 zonal coefficient [dimensionless]
 Re=6378.1363; %Earth radius [km]
 
-dx=zeros(6,1); %Initiation of state derivative vector [km/s]
+dx=zeros(6,1); %Initiation of state derivative vector [km/s;km/s^2]
 
 r=x(1:3); %Position vector [km]
 
